@@ -1,0 +1,17 @@
+{
+  "name": "student-task-tracker",
+  "version": "1.0.0",
+  "description": "Student Task Tracker built with Express and PostgreSQL, ready for Render",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  }
+}
